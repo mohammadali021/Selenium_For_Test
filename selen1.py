@@ -7,15 +7,6 @@ from selenium.webdriver.support.wait import WebDriverWait
 import unittest
 import datetime
 
-# options=webdriver.ChromeOptions()
-# options.add_experimental_option("detach",True)
-
-# driver = webdriver.Chrome(options=options)
-# driver.get("http://www.bing.com")
-# elem = driver.find_element(By.NAME , "q")
-# elem.send_keys("Hello")
-# WebDriverWait(driver , 12)
-# elem.send_keys(Keys.RETURN)
 test_link = "https://practice.expandtesting.com"
 class Form_Test(unittest.TestCase):
     def setUp(self):
